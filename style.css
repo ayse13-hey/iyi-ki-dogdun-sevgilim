@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f0fc;
+    color: #4a148c;
+    text-align: center;
+    overflow: hidden;
+}
+.page {
+    display: none;
+    height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page p {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: auto;
+}
+.photo {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #b39ddb;
+}
+.envelope {
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 40vh;
+}
+.message {
+    display: none;
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #6a1b9a;
+}
